@@ -12,7 +12,17 @@ module.exports = function(app) {
      app.get('/about',function(req,res){
         res.render('about.html');
     });
-     
+      app.get('/blog',function(req,res){
+        res.render('about.html');
+    });
+      app.get('/client',function(req,res){
+         res.render('about.html');
+      });
+      app.get('/contact',function(req,res){
+         res.render('about.html');
+     });
+      
+
     app.get('/listall', function (req, res) {
       //res.render('about.html');
       console.log('listall...');
